@@ -10,7 +10,7 @@ exports.menu = (botname, pushname, salam) => {
 	return`Selamat ${salam} kak ${pushname}
 
 Saya ${botname}, Bot Ini Adalah Beta Multi-Device WhatsApp.
-Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya, Lapor Owner Agar Segera Di Perbaiki🙏`
+Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya, Lapor Owner Agar Segera Di Perbaiki🐦`
 }
 
 //—————「 List 」—————//
@@ -46,6 +46,10 @@ return`  _Selamat ${salam} kak ${pushname}_
   *≻* ${prefix}upvote
   *≻* ${prefix}cekvote
   *≻* ${prefix}hapusvote
+  *≻* ${prefix}bucin
+  *≻* ${prefix}sound
+  *≻* ${prefix}bacot2
+
   
   *DOWNLOADER MENU*
   *≻* ${prefix}tiktoknowm 
@@ -103,6 +107,7 @@ return`  _Selamat ${salam} kak ${pushname}_
   *RANDOM ANIME MENU*
   *≻* ${prefix}loli
   *≻* ${prefix}neko
+  *≻* ${prefix}nekochan
   *≻* ${prefix}waifu
   *≻* ${prefix}shinobu
   *≻* ${prefix}megumin
@@ -322,8 +327,9 @@ return`  _Selamat ${salam} kak ${pushname}_
   *CONVERT MENU*
   *≻* ${prefix}toimage
   *≻* ${prefix}removebg
-  *≻* ${prefix}sticker
-  *≻* ${prefix}emojimix
+  *≻* ${prefix}sticker   
+  *≻* ${prefix}s             
+  *≻* ${prefix}emojimix 
   *≻* ${prefix}tovideo
   *≻* ${prefix}togif
   *≻* ${prefix}tourl
@@ -333,7 +339,8 @@ return`  _Selamat ${salam} kak ${pushname}_
   *≻* ${prefix}ebinary
   *≻* ${prefix}dbinary
   *≻* ${prefix}styletext
-  *≻* ${prefix}smeme
+  *≻* ${prefix}smeme   (contoh smeme Pagi
+  *≻* ${prefix}smeme2 (contoh smeme2 pagi | Gays )
 
   *INFORMATION MENU*
   *≻* ${prefix}merdeka-news 
@@ -427,18 +434,20 @@ return`  _Selamat ${salam} kak ${pushname}_
   *≻* Sanzy
   *≻* Nekel
   *≻* Bagas Prdn
+  *≻* Nelson
+  *≻* Yang baca
   `
 }
 
 //—————「 Welcome 」—————//
 exports.welcome = () => {
-	return`Welcome
+	return`★──────「 *𝗪𝗲𝗹𝗰𝗼𝗺𝗲* 」 ─────★\n\n┌────────────── \n│ *𝐇𝐚𝐥𝐨 𝐤𝐚𝐤👋*  \n│≻─「 *𝐈𝐍𝐓𝐑𝐎* 」─ \n│𝐍𝐚𝐦𝐚: \n│𝐔𝐦𝐮𝐫: \n│𝐆𝐞𝐧𝐝𝐞𝐫:\n│𝐀𝐬𝐤𝐨𝐭:\n│𝐒𝐭𝐚𝐭𝐮𝐬:\n╰── 「 *𝐒𝐞𝐦𝐨𝐠𝐚 𝐁𝐞𝐭𝐚𝐡 𝐊𝐚𝐤* 」──
 `
 }
 
 //—————「 Leave 」—————//
 exports.leave = () => {
-	return`Byeee
+	return`★──────「 *𝐆𝐨𝐨𝐝 𝐁𝐲𝐞* 」──────★\n\n┌────────────── \n│𝐆𝐨𝐨𝐝 𝐁𝐲𝐞 𝐊𝐚𝐤👋 \n│\n╰── 「 *𝐒𝐚𝐦𝐩𝐚𝐢 𝐉𝐮𝐦𝐩𝐚 𝐊𝐚𝐤* 」──
 `
 }
 
@@ -456,20 +465,24 @@ Thanks!
 —————「 *SEWA | RUN BOT* 」—————
 
   *_SEWA BOT_* 
-  *≻* Sewa Bot 15k (1 minggu)
-  *≻* Sewa Bot 20k (1 bulan)
-  *≻* Sewa Bot 25k (Permanen)
+  *≻* Sewa Bot 15k/1grup (1 minggu)
+  *≻* Sewa Bot 20k/2grup (1 bulan)
+  *≻* Sewa Bot 30k/4grup (Permanen)
 
-  *JADI BOT* 
+  *JADI BOT*  *Tutup*
   *≻* Jadi Bot 15k Tidak Owner (1 minggu)
   *≻* Jadi Bot + Owner 20k (1 bulan)
-  *≻* Jadi Bot + Owner 25k (Permanen)
+  *≻* Jadi Bot + Owner 30k (Permanen)
 
   *JASA RUN BOT*
   *≻* Run Bot 15k (1 minggu)
   *≻* Run Bot 20k (1 bulan)
-  *≻* Run Bot 25k (Permanen)
+  *≻* Run Bot 20k (Permanen)
 
+   *_PEMBAYARAN_* 
+   - _Dana_
+   - _Pulsa +5k_
+ 
   *Minat? Langsung chat aja ya cuy 🐦*
 
   *Contact person Owner* :
@@ -501,6 +514,9 @@ exports.groupmenu = (prefix) => {
   *≻* ${prefix}upvote
   *≻* ${prefix}cekvote
   *≻* ${prefix}hapusvote
+  *≻* ${prefix}bucin
+  *≻* ${prefix}sound
+  *≻* ${prefix}bacot2
   `
 }
 
@@ -578,6 +594,7 @@ exports.randomanimemenu = (prefix) => {
   *RANDOM ANIME MENU*
   *≻* ${prefix}loli
   *≻* ${prefix}neko
+  *≻* ${prefix}nekochan
   *≻* ${prefix}waifu
   *≻* ${prefix}shinobu
   *≻* ${prefix}megumin
@@ -825,7 +842,8 @@ exports.convertmenu = (prefix) => {
   *CONVERT MENU*
   *≻* ${prefix}toimage
   *≻* ${prefix}removebg
-  *≻* ${prefix}sticker
+  *≻* ${prefix}sticker  
+  *≻* ${prefix}s            
   *≻* ${prefix}emojimix
   *≻* ${prefix}tovideo
   *≻* ${prefix}togif
@@ -836,6 +854,8 @@ exports.convertmenu = (prefix) => {
   *≻* ${prefix}ebinary
   *≻* ${prefix}dbinary
   *≻* ${prefix}styletext
+  *≻* ${prefix}smeme   (contoh smeme Pagi
+  *≻* ${prefix}smeme2 (contoh smeme2 pagi | Gays )
   `
 }
 
@@ -962,5 +982,7 @@ exports.thanksto = () => {
   *≻* Sanzy
   *≻* Nekel
   *≻* Bagas Prdn
+  *≻* Nelson
+  *≻* Yang baca
 `
 }
